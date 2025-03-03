@@ -1,0 +1,147 @@
+:root {
+    --rosa : rgb(149, 48, 112);
+    --azul : rgb(32, 97, 235);
+    --preto : rgb(0, 0, 0);
+    --cinza : #141414;
+    --azul2 : rgb(22, 41, 107);
+    --cinza-escuro : #1b1b1b;
+    --rosa-fiap: #d30d4b;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto-rosafiap {
+    color: var(--rosa-fiap);
+}
+
+.bg-preto {
+    background-color: var(--preto);
+}
+
+.nav-link {
+    font-weight: 400;
+    color: white;
+}
+
+.menu {
+    color: white !important;
+}
+
+.logo {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.navbar-toggler i {
+    color: white;
+}
+
+.img-zoom {
+    transition: .3s;
+}
+
+.img-zoom:hover {
+    transform: scale(1.1);
+}
+
+.bg-carinhas {
+    background-image: url(../images/fundo\ carinhas\ maior\ .jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--preto);
+} 
+
+.bg-iluminado {
+    background-image: url(../images/fundo-luzes.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--preto);
+} 
+
+.sombra {
+    box-shadow: 5px 5px 20px rgb(38, 36, 36);
+}
+
+.sombra-dentro {
+    box-shadow: inset 0 20px 30px -10px rgb(22, 21, 21);
+}
+
+.bg-gradiente {
+    background: linear-gradient(to bottom,var(--azul2), var(--azul2), var(--rosa));
+}
+
+.bg-gradiente2 {
+    background: linear-gradient(to bottom,var(--rosa), var(--rosa), var(--preto));
+}
+
+.bg-none {
+    background: none;
+}
+
+.bg-gradiente3 {
+    background: linear-gradient(to bottom,var(--cinza), var(--rosa-fiap));
+}
+
+.bg-azul-cinza {
+    background: linear-gradient(to bottom,var(--azul2), var(--cinza));
+}
+
+.cameras img{
+    width: 120px;
+}
+
+.fiap {
+    width: 300px;
+}
+
+.luz-fiap img {
+    height: 100vh;
+}
+
+.borda-preta {
+    border: 2px solid black;
+    color: black;
+}
+
+.bg-gradiente4 {
+    background: linear-gradient(to bottom, var(--rosa-fiap), var(--preto), var(--preto));
+}
+
+.bg-preto-azul {
+    background: linear-gradient(to bottom,  var(--preto), var(--preto), var(--preto), var(--azul2));
+}
+
+.bg-azul {
+    background-color: var(--azul2);
+}
+
+.redes {
+    width: 100%;
+    height: 20vh;
+}
+
+.redes i {
+    font-size: 50px;
+}
+
+.redes a {
+    color: white;
+    transition: .2s;
+}
+
+.redes a:hover {
+    color: var(--rosa);
+}
